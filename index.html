@@ -23,19 +23,110 @@
 </head>
 
 <body>
+  <!-- Header -->
+  <header>
+    <h1>Joseph D'Anna</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- About -->
+  <h2 id="about">About</h2>
+  <section>
+    <p>
+      Hi, I'm Joseph D'Anna.
+      I develop websites and web applications in the Chicagoland area.
+      I'm all about having a good time while we get the job done!
+    </p>
+    <div>
+      <span>Interested in working together? Send me an e-mail at</span>
+      <a href="mailto:jodyanna14.15@gmail.com">jodyanna14.15@gmail.com</a>
+    </div>
+    <div>
+      Download my resume <a href="img/resume-joseph-danna.pdf" target="_blank" rel="noopener noreferrer"> here</a>.
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <h2 id="skills">Skills</h2>
+  <section>
+    <span>Here are some of the tech and tools I've used to make my projects.</span>
+    <h3>Technology</h3>
+    <p>
+      JavaScript, CSS, HTML, React, styled-components, Express, Node.js, MySQL
+    </p>
+    <h3>Development & Deployment</h3>
+    <p>
+      I usually use Netlify's services for deploying smaller projects.
+      For larger projects I have used AWS's EC2 and RDS services.
+      My IDE of choice is IntelliJ's WebStorm.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <h2 id="projects">Projects</h2>
+  <section>
+    <!-- Kanji Pre-Reader -->
+    <article>
+      <h3>Kanji Pre-Reader</h3>
+      <div class="project-links">
+        <a href="https://kanji-pre-reader.netlify.app/">Visit site</a>
+        <a href="https://github.com/jodyanna/kanji-pre-reader">View code</a>
+      </div>
+      <p class="tech-list">React, JavaScript, CSS, HTML</p>
+      <p>
+        Create custom kanji study sheets from any Japanese text with this web application.
+        Input the text, select the kanji, and then download the PDF.
+        Become a master of kanji with any text of your choosing!
+      </p>
+    </article>
+
+    <!-- Chatter-bot -->
+    <article>
+      <h3>Chatter-bot</h3>
+      <div class="project-links">
+        <a href="">Visit site</a>
+        <a href="https://github.com/jodyanna/chatter-bot">View code</a>
+      </div>
+      <p class="tech-list">React, JavaScript, CSS, HTML, Express, Node.js, MySQL</p>
+      <p>
+        Chatter away with this online message board application.
+        Create custom chat rooms for topical discussion.
+        Make posts up to 255 characters in length.
+        Sign-up for user accounts with secure password hashing.
+      </p>
+    </article>
+
+    <!-- Spiral Designs -->
+    <article>
+      <h3>Spiral Designs</h3>
+      <div class="project-links">
+        <a href="https://spiral-designs.netlify.app/">Visit site</a>
+        <a href="https://github.com/jodyanna/spiral_designs">View code</a>
+      </div>
+      <p class="tech-list">JavaScript, CSS, HTML</p>
+      <p>
+        Watch an arithmetic spiral spin.
+        A settings toolbar allows for real-time adjustment of the spiral's color, size and background color.
+      </p>
+    </article>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+
+  </footer>
+
+  <!-- JavaScript -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
