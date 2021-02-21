@@ -24,13 +24,16 @@
 
 <body>
   <!-- Header -->
-  <header>
-    <h1>Joseph D'Anna</h1>
-    <nav>
-      <ul>
+  <header class="flex">
+    <img src="img/icon-192x192.png" alt="icon-192x192.png"
+         style="width: 80px; height: 80px;"
+    >
+    <h1>Joe D'Anna</h1>
+    <nav class="flex">
+      <ul class="flex">
         <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
       </ul>
     </nav>
   </header>
@@ -39,33 +42,17 @@
   <h2 id="about">About</h2>
   <section>
     <p>
-      Hi, I'm Joseph D'Anna.
+      Hi, I'm Joe D'Anna.
       I develop websites and web applications in the Chicagoland area.
-      I'm all about having a good time while we get the job done!
+      I'm all about having a good time while getting the job done!
+    </p>
+    <p>
+      Download my resume <a href="img/resume-joseph-danna.pdf" target="_blank" rel="noopener noreferrer"> here</a>.
     </p>
     <div>
       <span>Interested in working together? Send me an e-mail at</span>
-      <a href="mailto:jodyanna14.15@gmail.com">jodyanna14.15@gmail.com</a>
+      <a href="mailto:jodyanna14.15@gmail.com">jodyanna14.15@gmail.com</a>.
     </div>
-    <div>
-      Download my resume <a href="img/resume-joseph-danna.pdf" target="_blank" rel="noopener noreferrer"> here</a>.
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <h2 id="skills">Skills</h2>
-  <section>
-    <span>Here are some of the tech and tools I've used to make my projects.</span>
-    <h3>Technology</h3>
-    <p>
-      JavaScript, CSS, HTML, React, styled-components, Express, Node.js, MySQL
-    </p>
-    <h3>Development & Deployment</h3>
-    <p>
-      I usually use Netlify's services for deploying smaller projects.
-      For larger projects I have used AWS's EC2 and RDS services.
-      My IDE of choice is IntelliJ's WebStorm.
-    </p>
   </section>
 
   <!-- Projects -->
@@ -76,6 +63,7 @@
       <h3>Kanji Pre-Reader</h3>
       <div class="project-links">
         <a href="https://kanji-pre-reader.netlify.app/">Visit site</a>
+        <span>|</span>
         <a href="https://github.com/jodyanna/kanji-pre-reader">View code</a>
       </div>
       <p class="tech-list">React, JavaScript, CSS, HTML</p>
@@ -91,6 +79,7 @@
       <h3>Chatter-bot</h3>
       <div class="project-links">
         <a href="">Visit site</a>
+        <span>|</span>
         <a href="https://github.com/jodyanna/chatter-bot">View code</a>
       </div>
       <p class="tech-list">React, JavaScript, CSS, HTML, Express, Node.js, MySQL</p>
@@ -107,7 +96,8 @@
       <h3>Spiral Designs</h3>
       <div class="project-links">
         <a href="https://spiral-designs.netlify.app/">Visit site</a>
-        <a href="https://github.com/jodyanna/spiral_designs">View code</a>
+        <span>|</span>
+        <a href="https://github.com/jodyanna/spiral-designs">View code</a>
       </div>
       <p class="tech-list">JavaScript, CSS, HTML</p>
       <p>
@@ -118,10 +108,28 @@
 
   </section>
 
-  <!-- Footer -->
-  <footer>
-
-  </footer>
+  <!-- Skills -->
+  <h2 id="skills">Skills</h2>
+  <span>The technology and tools I use to make my projects.</span>
+  <section>
+    <article>
+      <h3>Technology</h3>
+      <p>
+        Frontend: JavaScript, CSS, HTML, React
+      </p>
+      <p>
+        Backend: Express, Node.js, MySQL
+      </p>
+    </article>
+    <article>
+      <h3>Development & Deployment</h3>
+      <p>
+        I usually use Netlify's services for deploying smaller projects.
+        For larger projects I have used AWS's EC2 and RDS services.
+        My IDE of choice is IntelliJ's WebStorm.
+      </p>
+    </article>
+  </section>
 
   <!-- JavaScript -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
